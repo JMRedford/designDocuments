@@ -1,0 +1,20 @@
+Setting:
+  The world of Orison is divided roughly into nine areas.
+
+  North-East: The Human Kingdom - The hill-country here is dotted with ponds and streaked with rivers.  The River Ocean opens into a large bay toward the very east of the South-East continent, and also turns north, separating the river country of the Humans from the Halfling land.
+
+  North: The Halflings - The great forests of the Elves give way in this hilly land to the lightly forested land of the Halflings.  The Halflings have no native political structure.  South lies the River Ocean, west is the great forests of the Elves, east, across the River Ocean is the Human Kingdom.
+
+  North-West: The Elven Kingdom - The Elves build their structures out of living wood into, out of, and amoung the great trees of the north-west forest.  To the south, the River Ocean opens wide as if to swallow the island of the Pteradons.
+
+  West: The Island of the Pteradons - Dominated by a single huge mountain, the island of the Pteradons stands at the western end of the River Ocean.  The winged Pteradons make their eyries in the crags.
+
+  South-West: The Ash-Kingdom of the Ophidians - A river of magma pushes through a deep cleft in a volcano, and periodic clouds of ash alternately choke and enrich the countryside.  The snake-like Ophidans are born of eggs washed up on the shore of the river of magma.  A great jungle to the north separates the volcano from the River Ocean.  To the east, the southern ocean presses somewhat toward the central desert of the southern continent.  To the north-east is the great desert.
+
+  South: The Gnomes - The gnomes keep trading outposts on the south end of the southern continent, but off the coast is an island that they have rebuilt into a haven for anyone with enough coin to enter their enclosed harbor.
+
+  South-East: The Kingdom of the Dwarfs - This area is dominated by large ranges of mountains.  The Dwarfs have tunneled through a good deal of these.  By far, their largest achieviement is the series of locks which run under a narrow, mountanous isthmus from the bay in the River Ocean to the eastern ocean.
+
+  East: The Barbarians - Running alongside the east coast of the continent is the low, long island of the Barbarians.
+
+  The Central Desert: The land of Oodurang - Here there be monsters.

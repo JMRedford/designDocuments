@@ -1,0 +1,82 @@
+Robot building:
+  - Reactor - has a 'power type'
+  - Propulsion
+  - Sensors
+  - Transmitter
+  - Computers
+  - Shields
+  - Weapons
+
+Power Types:
+  - Electric
+  - Nuclear
+  - Point Heat
+  - Photonic
+  Each type provides bonuses/drawbacks for component attributes.
+  Converters may be used in producing components to change power type.
+
+Propulsion System Attributes:
+  Electric:
+  Nuclear:
+  Point-Heat:
+  Photonic:
+  - Acceleration
+  - Top Speed
+  - Efficiency Curve (power vs thrust)
+  - Regen
+  - z-Efficiency (power vs thrust)
+  - z-Stability
+
+Sensor Attributes:
+  Electric:
+  Nuclear:
+  Point-Heat:
+  Photonic:
+  - Chance to detect NBE (prob/sec vs range)
+  - Chance to detect resource (prob/sec vs range)
+  - Efficiency Curves (power vs range at .1 detection prob/sec)
+
+Transmitter Attributes:
+  Electric:
+  Nuclear:
+  Point-Heat:
+  Photonic:
+  - Fidelity Curve (fidelity vs range)
+  - Efficiency Curve (power vs range at .5 fidelity)
+
+Computer Attributes:
+  Electric:
+  Nuclear:
+  Point-Heat:
+  Photonic:
+  - Size of code array
+  - Number of loaded translator programs
+  - Translator program speed
+  - Sensor resource type and value discrimination
+  - NBE threat discrimination
+
+Shield Attributes:
+  Electric:
+  Nuclear:
+  Point-Heat:
+  Photonic:
+  - Damage Capacity
+  - Recharge Efficiency Curve (power vs points recharged)
+
+Weapon System Attributes:
+  Electric:
+  Nuclear:
+  Point-Heat:
+  Photonic:
+  - Rate of Fire
+  - Damage
+  - Accuracy
+  - Speed
+  - Range
+  - Area of Effect
+  - Charges
+  - Regen
+
+Crafting Skill Tree includes all systems as branches.  Skill levels in each system determine the maximum number of points one may place in a system.  Off these branches are leaves for each attribute.  Skill levels in these determine how many points one may place in an attribute.
+
+Likewise the fitting skill determines the max number of points of all modules in big robot, while the sub skills determine the maximum point size of each module type.
