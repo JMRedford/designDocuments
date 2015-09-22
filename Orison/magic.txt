@@ -49,7 +49,7 @@ Elements can combine with other elements to form new elements:
 Spellcrafting:
   The player has a number of 'slots' which they can fill determined by the level of their Spellcrafting skill. (see skills.txt)  The player may drag a number of effects into those slots determined by their skills.
 
-    Protection - Damage mitigation (ele)*
+    Protection - Damage mitigation (multiplicative) (ele)*
     Healing - Healing
     Augmentation - Speed buff
     Damage - Damage (ele)*
@@ -65,7 +65,7 @@ Spellcrafting:
     Deg-Heal - Remove status
     Deg-Prot - Status ward
     Prot-Mind - Immunity to Int, Wis debuffs and Mana damage
-    Prot-Aug - Damage mitigation - double (ele)*
+    Prot-Aug - Damage mitigation (subtractive) (ele)*
     Heal-Time - Heal over time
     Heal-Aug - Vitality Buff
     Aug-Mind - Wis and Int Buff
@@ -74,15 +74,22 @@ Spellcrafting:
     Dam-Time - Dot (ele)* 
     Dam-Mind - Mana Damage
 
-  The aspects without an effect of their own (Mind and Time) can be placed by themselves in slots to modify range (Mind) or area of effect (Time) of the effect in the slot before.
+  The aspects without an effect of their own (Mind and Time) can be placed by themselves in slots to modify range (Mind) or area of effect/duration (Time) of the effect in the slot before.
 
-  Mind may extend the range of:
-    Heal, Dam, Deg-Dam, Deg-Mind, Deg-Heal, Prot-Aug, Heal-Time, Aug-Time, Dam-Time, Dam-Mind
+  Mind may extend the range of effects.
 
   Time may give AoE to:
-    Heal, Aug, Dam, Deg-Heal, Deg-Prot, Heal-Time, Heal-Aug, Aug-Mind, Aug-Dam, Dam-Time
+    Heal, Dam, Deg-Heal, Heal-Time, Heal-Aug, Aug-Dam, Dam-Time, Deg-Dam, Deg
 
-  Overlap Mind and Time to add range and AoE to:
-    Heal, Dam, Deg-Heal, Heal-Time, Dam-Time
+  Time may give duration to:
+    Prot, Prot-Aug, Aug-Mind, Deg-Prot, Aug-Time, Aug
+
+  Overlap Mind and Time in the same slot to give both bonuses to previous effect.
 
 The same elements and aspects are used in enchanting weapons, armor, and buildings. (see crafting.txt)
+
+When a multi-element is used in spellcrafting or enchanting, some of its damage or mitigation becomes the type of its subtypes.  For example, a Lava damage spell might do 50 Lava damage, but also 25 Fire damage and 25 Earth damage, whereas a Fire damage spell of the same cost might do 100 Fire damage.
+
+Double element: 2-1 ratio, i.e. 50%-25%
+Triple element: 5-3-2 ratio, i.e. 25%-15%-10%
+Aeon: 8-4-3-2 ratio, i.e. 16%-8%-6%-4%
