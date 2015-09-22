@@ -1,0 +1,55 @@
+Types of user interfaces.
+N.B.  Only one player in a Big Robot can access any of these UIs at a given time, with the exception of the View.
+
+Each UI is a window that can be moved and resized on the view screen.  As the window is sized smaller, the exposed functionality changes to the most useful subset.
+
+View (default interface):
+  Description: 360 degree view of area around the BR.
+  Controls: None
+
+Pilot:
+  Description:
+    - View locked onto direction of BR
+    - Targeting reticule
+    - Bearing bar with waypoint markers
+    - Bottom bar with display of active weapons
+    - Side display of shield/armor strength
+    - Targets identified by sensors outlined
+      - Green - unknown
+      - Red - hostile
+      - Blue - friendly
+  Controls:
+    - Movement of the BR
+    - Firing weapons
+
+Energy Management:
+  Description:
+  Controls:
+    - Percent of energy output to all subsystems
+      - Weapons
+      - Shields
+        - Forward
+        - Rear
+      - Engines
+      - Sensors
+      - Transmitter
+      - Computer on/off
+
+Threat Scanner:
+  Description:
+  Controls:
+
+Resource Scanner:
+  Description:
+  Controls:
+
+Signals:
+  Description:
+  Controls:
+    - Copy signals into transmission array
+    - Run translations of all incoming signals
+    - See the origin bearing of signals
+
+Coordination:
+  Description:
+  Controls:
