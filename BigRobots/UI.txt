@@ -23,7 +23,12 @@ Pilot:
     - Firing weapons
 
 Energy Management:
-  Description:
+  Description: 
+    Tiny: three radio buttons to set priority between weapons, shields, and engines
+    Small: only the 5 sliders, computer on by default
+    Medium: 7 sliders (forward and rear shields), computer toggle, overload toggle
+      (overload adds 10% to output for up to 5 minutes, then damages reactor by 5% power)
+    Large: adds reserve power UI and engine output slider.  Unused power fills batteries allowing reactor to run at over 100 percent while draining batteries.
   Controls:
     - Percent of energy output to all subsystems
       - Weapons
@@ -37,6 +42,10 @@ Energy Management:
 
 Threat Scanner:
   Description:
+    Tiny: circular map with red dots
+    Small: larger map with red and green dots, red sized by threat
+    Medium: red, green, blue dots clickable to reveal information, can set waypoints
+    Large: combines with resource scanner and coordination UI
   Controls:
 
 Resource Scanner:

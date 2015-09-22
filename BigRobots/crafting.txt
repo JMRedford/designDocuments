@@ -16,10 +16,10 @@ Power Types:
   Converters may be used in producing components to change power type.
 
 Propulsion System Attributes:
-  Electric:
-  Nuclear:
-  Point-Heat:
-  Photonic:
+  Electric: +accel, +regen, -z-eff, -eff-curve
+  Nuclear: +accel, +top speed, -eff-curve, -z-eff, -regen
+  Point-Heat: +z-stab, -top speed, -accel
+  Photonic: +eff-curve, +z-eff, -accel, -z-stab
   - Acceleration
   - Top Speed
   - Efficiency Curve (power vs thrust)
@@ -28,27 +28,27 @@ Propulsion System Attributes:
   - z-Stability
 
 Sensor Attributes:
-  Electric:
-  Nuclear:
-  Point-Heat:
-  Photonic:
+  Electric: -detect
+  Nuclear: -eff
+  Point-Heat: +detect
+  Photonic: +eff
   - Chance to detect NBE (prob/sec vs range)
   - Chance to detect resource (prob/sec vs range)
   - Efficiency Curves (power vs range at .1 detection prob/sec)
 
 Transmitter Attributes:
-  Electric:
-  Nuclear:
-  Point-Heat:
-  Photonic:
+  Electric: -fid
+  Nuclear: -eff
+  Point-Heat: +fid
+  Photonic: +eff
   - Fidelity Curve (fidelity vs range)
   - Efficiency Curve (power vs range at .5 fidelity)
 
 Computer Attributes:
-  Electric:
-  Nuclear:
-  Point-Heat:
-  Photonic:
+  Electric: +2 array size
+  Nuclear: -speed
+  Point-Heat: +2 translators
+  Photonic: +speed
   - Size of code array
   - Number of loaded translator programs
   - Translator program speed
@@ -56,18 +56,18 @@ Computer Attributes:
   - NBE threat discrimination
 
 Shield Attributes:
-  Electric:
-  Nuclear:
-  Point-Heat:
-  Photonic:
+  Electric: +cap
+  Nuclear: -eff
+  Point-Heat: -cap
+  Photonic: +eff
   - Damage Capacity
   - Recharge Efficiency Curve (power vs points recharged)
 
 Weapon System Attributes:
-  Electric:
-  Nuclear:
-  Point-Heat:
-  Photonic:
+  Electric: --range, --rof, --speed, ++dam, ++aoe
+  Nuclear: +dam, +regen, +range, +speed, -charges
+  Point-Heat: baseline
+  Photonic: -dam, -range, -regen, +speed, +rof, +acc
   - Rate of Fire
   - Damage
   - Accuracy
@@ -77,6 +77,6 @@ Weapon System Attributes:
   - Charges
   - Regen
 
-Crafting Skill Tree includes all systems as branches.  Skill levels in each system determine the maximum number of points one may place in a system.  Off these branches are leaves for each attribute.  Skill levels in these determine how many points one may place in an attribute.
+Crafting Skill Tree includes all systems as branches.  Skill levels in each system determine the maximum number of points one may place in a system.  Off these branches are leaves for each attribute.  Skill levels in these determine how many points one may place in an attribute.  To make a module, one must have raw materials which can take the points one wishes to place in the module.
 
 Likewise the fitting skill determines the max number of points of all modules in big robot, while the sub skills determine the maximum point size of each module type.
