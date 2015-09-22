@@ -1,0 +1,35 @@
+Political units:
+  1 capitol city in each of the 4 main kingdoms
+  2 major cities in each of the 4 kingdoms
+  a maximum of 10 player-built towns in each of the 4 kingdoms
+
+Becoming a leader:
+  In each political unit, a player may interact with either the notice board in the tavern or the notice board at the administration building of the PU and indicate their desire to become the leader of the PU.  Players who have declared are visible on the notice board ranked by their prestige in the PU.  The player with the most prestige on the list after the current term of the leader is over (3 months for kings, 1 month for governors, 1 week for mayors) becomes the new leader of the PU. (this may be the same player as before)
+
+  Planeswalker council has turnover every year staggered by plane. (see planes.txt)
+
+  Players gain prestige by:
+    - dealing damage to NPC enemies in the vicinity of the PU
+    - buying trade goods from the city
+    - selling trade goods to the city
+    - doing crafting work on the buildings of the city
+    - selling crafted weapons/armor to the city
+
+  Players may also offer any form of prestige as part of a trade with another player.
+
+  In addition, political leaders may gain prestige when:
+    - PU friendly NPCs deal damage to NPC enemies
+    - any posted buy/sell/craft order is met (1/2 of ammount of prestige given to player who actualy does the work.  Does not apply if leader does task themself)
+
+  Losing prestige:
+    - prestige decays over time, twice as fast for the PU leader
+    - a certain rare flower can be crafted into a poison that, when placed on a weapon causes damage not to health, but to prestige 
+    - a player may trade 10 town prestige for 1 prestige in the nearest city
+    - a player may trade 10 city prestige for 1 kingdom prestige
+    - 10 kingdom - 1 plane
+
+    (each higher level of prestige degrades at 1/10th the speed)
+      - town prestige decays 1 every 6 hours (Mayors lose 56 prestige per cycle)
+      - city - 1 every 2.5 days (Governors lose 24 prestige per cycle)
+      - kingdom - 1 every 25 days (Kings lose 7-8 prestige per cycle)
+      - plane - 1 every 250 days (Planeswalker Council members lose 1-2 per cycle)

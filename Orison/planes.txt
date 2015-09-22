@@ -1,0 +1,20 @@
+The game 'universe' starts out with only 1 plane.  As the player population grows, planes are added, and players can travel from one plane to another.  Planes start, for the most part, in the base state of the starting plane.
+
+Travel is accomplished through gates.  There may only be eight gates to adjacent planes on any given plane.  The spell to open a gate, (closing the closest gate in the process) has an xp cost equal to the last level of a non-hero, and costs 1 plane prestige.
+
+    10----6----14
+  /       |       \
+17        2         11
+|         |         |
+9----5----1----3----7
+|         |         |
+13        4         15
+   \      |       / 
+    16----8----12
+
+17 planes maximum
+
+Planeswalker council:
+  Every plane may have a representative on the planeswalker council.
+  These players are like Eve's CSM in that they work with the devs to decide issues about the game.  In addition, they can alter some aspect of the planes independently.
+  - They can alter the ballance of the elements on any plane, making fire, or instance, more potent than air. (see magic.txt)
