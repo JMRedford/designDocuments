@@ -5,3 +5,9 @@ Key Concepts:
   Rubber Band Zones - The default state of any zone is in some way not preferable to some other state in which the zone may be put with player effort.  Without some constant input of player effort, the zone returns to its default state.
 
 Setting: setting.txt
+
+Politics: politics.txt
+
+Planes: planes.txt
+
+Magic Theory and Crafting: magic.txt

@@ -1,0 +1,88 @@
+Magic is based on two overlapping diagrams, the square and the phoenix.
+
+Square:
+
+Earth----------Fire
+|   \       /   |
+|     \   /     |
+|       X       |
+|     /   \     |
+|   /       \   |
+Water----------Air
+
+Phoenix:
+
+Degredation----------------Damage
+  ||     \   \        /---/   |
+  | |     \    \  /--/   /    |
+  | |      \    /\     /      |
+  | |       Mind  \   /       |
+  |  |    /  |    \  /        |
+  |  |  /    |  Time          |
+  |  | /      \/     \        |
+  |  |/       / \      \      |
+  |  /|     /     \     \     |
+Protection------\   --- \\    |
+      |   /      ---------Augmentation
+    Healing-----/
+
+Associations:
+  Degredation - Earth
+  (Damage is not associated with Fire)
+  Protection - Water
+  Healing - Water
+  Augmentation - Air
+
+Elements can combine with other elements to form new elements:
+  Earth + Fire = Lava
+  Earth + Water = Deluge
+  Earth + Air = Dust
+  Fire + Water = Steam
+  Fire + Air = Inferno
+  Water + Air = Blast
+  Earth + Fire + Water = Still
+  Earth + Fire + Air = Thirst
+  Earth + Water + Air = Cold
+  Fire + Water + Air = Ethereal
+  Earth + Fire + Water + Air = Aeon
+
+Spellcrafting:
+  The player has a number of 'slots' which they can fill determined by the level of their Spellcrafting skill. (see skills.txt)  The player may drag a number of effects into those slots determined by their skills.
+
+    Protection - Damage mitigation (ele)*
+    Healing - Healing
+    Augmentation - Speed buff
+    Damage - Damage (ele)*
+    Degredation - Inflicts a status effect (poison, bleed, etc) randomly. Or may be overlapped with an element to choose the status inflicted.
+      TODO: element - status chart
+    Mind - Wizard's Eye (when it is the only effect in the spell)
+
+  Some effects may be overlapped given appropriate levels of the Aspect-Combination skill
+
+    Deg-Dam - Mitigation debuff and DoT (ele)*
+    Deg-Time - Inflict slow
+    Deg-Mind - Int debuff and Mana damage
+    Deg-Heal - Remove status
+    Deg-Prot - Status ward
+    Prot-Mind - Immunity to Int, Wis debuffs and Mana damage
+    Prot-Aug - Damage mitigation - double (ele)*
+    Heal-Time - Heal over time
+    Heal-Aug - Vitality Buff
+    Aug-Mind - Wis and Int Buff
+    Aug-Time - Speed Buff
+    Aug-Dam - Str Buff
+    Dam-Time - Dot (ele)* 
+    Dam-Mind - Mana Damage
+
+  The aspects without an effect of their own (Mind and Time) can be placed by themselves in slots to modify range (Mind) or area of effect (Time) of the effect in the slot before.
+
+  Mind may extend the range of:
+    Heal, Dam, Deg-Dam, Deg-Mind, Deg-Heal, Prot-Aug, Heal-Time, Aug-Time, Dam-Time, Dam-Mind
+
+  Time may give AoE to:
+    Heal, Aug, Dam, Deg-Heal, Deg-Prot, Heal-Time, Heal-Aug, Aug-Mind, Aug-Dam, Dam-Time
+
+  Overlap Mind and Time to add range and AoE to:
+    Heal, Dam, Deg-Heal, Heal-Time, Dam-Time
+
+The same elements and aspects are used in enchanting weapons, armor, and buildings. (see crafting.txt)
