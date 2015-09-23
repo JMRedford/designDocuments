@@ -6,8 +6,12 @@ Key Concepts:
 
 Setting: setting.txt
 
+Player Stats and progression: progression.txt
+
 Politics: politics.txt
 
 Planes: planes.txt
 
 Magic Theory and Crafting: magic.txt
+
+Villians, what to do with griefers: villians.txt

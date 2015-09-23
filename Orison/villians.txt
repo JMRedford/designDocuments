@@ -1,0 +1,29 @@
+Villian Quest:
+  At level 10 and up, a player may find a specific NPC in any of the Capitols.
+  This NPC asks them if there is any sense to the terms 'good', and 'evil'.
+  If the player answers no, they are sent on the quest. If they answer yes, they are asked which they prefer, and if they answer 'evil', they are sent on the quest.  Otherwise the quest ends with 'come back if you change your mind.'
+
+  They are sent counter-clockwise to NPCs in the other capitols which ask the player to reject the races, reject the gods, and reject life itself.  Once that is done, they are granted safe passage to the middle of the central dessert where they meet with a vision of Oodurang.  It tells them of the dark temples and says that they must reach the orb in one of the temples to commit to their rejection of all the gods stand for.
+
+  In the center of the temple is an orb which finishes the quest when gathered and acts as the new villian's first ressurection orb.
+
+Cost of being a villian:
+  If a villian dies without a ressurection orb, their character is deleted.
+
+Temples:
+  There are four minor temples, two temples, and a major temple in the world of orison.  (see map)  The orbs in each temple are different. Minor orbs cause the villian to lose one level of experience upon death.  Standard orbs inflict no death peanalty.  Major orbs give the villian half of the experience needed to reach their next level upon death.  A villian may carry two orbs at once and on death, decide which one to use.  An orb of higher level automatically replaces the lowest level orb held on pickup.
+
+  Every temple has a circular wall around it with a single entrance, which opens for one hour twice per day, just as the next door in is closing.  A maze separates the outside wall from the next wall, in which the door opens twice per day, for one hour (the hour previous to the outer door opening).  Halfway through the maze, there is a safe area where heroes cannot go.  There is one such maze in a minor temple, two in a standard temple, and three in the major temple.  Thus, a minor temple takes a minnimum of 11 hours to run, 22 for a standard, and 33 for the major.  The villian may log off in the safe area.
+
+Benefits of being a villian:
+  Power: Villians have access to new skills and special spells.
+  Power: Villians may level up to level 25 as Heroes do.
+  Grief: Villians gain xp by killing players.  This is not based on level.  A villian gains just as much xp by killing a level 1 player as a level 20 player.  Killing a Hero gives ten times this xp.  Killing another villian gives twice the normal player kill xp.
+  Access to town: Villians may use special portals (see map) to access the villian town for their plane.
+
+Villian Town:
+  There are eight 'public' portals from the world into villian town.  They all lead to the ground floor of the central tower.  The top of the tower is a private residence for a villian.  There are six large residences around the town, and eight smaller residences.  Each residence has a private portal to the world.  Keys start out hanging on doors, and are on the corpses of villians (only visible to other villians) for one day after they die, when they go back to hanging on the door.  If a villian who owns a residence picks up a key, their current key is put back on the door.
+
+  The minor residences have a regional map, centered on their private portal, which shows the locations of all Heroes currently in the area, and give some ability to command NPCs in that area.  The mid-level residences have, as well, a small shrine in which another orb may be stored.  The tower contains, in addition, a summoning circle in which the villian may summon any logged in player for ten minutes at the cost of a bit of xp.  The player summoned may stay longer than the ten minutes, but may be dismissed at any time by the villian. 
+
+Skills and Spells: 
