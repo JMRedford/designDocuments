@@ -24,6 +24,11 @@ Benefits of being a villian:
 Villian Town:
   There are eight 'public' portals from the world into villian town.  They all lead to the ground floor of the central tower.  The top of the tower is a private residence for a villian.  There are six large residences around the town, and eight smaller residences.  Each residence has a private portal to the world.  Keys start out hanging on doors, and are on the corpses of villians (only visible to other villians) for one day after they die, when they go back to hanging on the door.  If a villian who owns a residence picks up a key, their current key is put back on the door.
 
-  The minor residences have a regional map, centered on their private portal, which shows the locations of all Heroes currently in the area, and give some ability to command NPCs in that area.  The mid-level residences have, as well, a small shrine in which another orb may be stored.  The tower contains, in addition, a summoning circle in which the villian may summon any logged in player for ten minutes at the cost of a bit of xp.  The player summoned may stay longer than the ten minutes, but may be dismissed at any time by the villian. 
+  The minor residences have a regional map, centered on their private portal, which shows the locations of all Heroes currently in the area, and give some ability to command NPCs in that area.  The mid-level residences have, as well, a small shrine in which another orb may be stored.  The tower contains, in addition, a summoning circle in which the villian may summon any logged in player for ten minutes at the cost of a bit of xp.  The player summoned may stay longer than the ten minutes, but may be dismissed at any time by the villian.
+
+  At one end of the villian town is an entrance which can be used by Heroes.  At the other end is an item that gives all villians a bonus when it is in place.  When it is taken by a Hero, it becomes a potent weapon.  When the hero is killed by a villian, the weapon may become more potent and may be taken by the villian.  Otherwise, the item returns to its original place and potency.  The probability of it being passed off as a weapon at any time is 75 percent, so the probability of the item being passed on more than eight times as a weapon is less than 1/10.
 
 Skills and Spells: 
+
+Uses of Villians:
+  When a villian is killed, they drop a jewel used in crafting.  These give items extra damage or mitigation vs villians and extra effects, elemental potentcies and resists, based on the level of the villian.
