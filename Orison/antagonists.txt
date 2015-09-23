@@ -1,0 +1,40 @@
+Philosophy:
+  There should be very few areas that are permanent, and none that are simply static collections of NPCs.  Groups of NPCs spawn at a time and place when/where no players are around.  These groups spawn with an objective, and a weighted non-deterministic choice of subtasks that may lead to the objective.  Machine learning is used to adjust the probabilities and allow antagonist collections to improve their effectiveness.
+
+Goblins:
+  Spawning location: Not within PU land grant region.  Not in central desert.  Biased towards being close to roads.
+  Possible Objectives: 
+    Trade Disruption:
+      - 0.3 stay within area near road 
+      - 0.3 attack caravans
+      - 0.4 stay alive
+    Town Harrassment:
+      - 0.1 stay within annulus around town
+      - 0.3 damage town buildings
+      - 0.3 attack players
+      - 0.3 stay alive
+
+Orcs:
+  Spawning location: Central desert
+  Possible Objectives:
+    Trade Disruption:
+    Town Destruction:
+    City Harrassment:
+    Capitol Harrassment:
+
+Vampires:
+  Spawning location: Hillside, rock face, or thicket near a PU
+  Objective:
+    Turn NPCs into vampires to expand lair:
+  Lair: Lair is dug deeper with each NPC turned.  Branched tunnels and traps in lair are added randomly.
+
+Fairies:
+  Spawning location: Remote locations
+  Objective:
+    Harrass players:
+  Tree: starts as a sapling with a single fairie.  As the tree grows, more fae take up residence.  Tree can grow to 10 meters wide at the base and 100 meters tall.  As the tree grows, the radius in which the fae harrass players grows as well.
+
+Blood Kites:
+  Spawning location: Mountain crags
+  Objective:
+    Steal items:
