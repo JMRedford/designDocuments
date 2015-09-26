@@ -1,0 +1,11 @@
+Players may build their own bases outside of the main dome.
+
+The terrain around the dome is static within some radius.  New procedural terrain may be generated between the dome and bases.  Bases have the tendency to drift away from the dome with new terrain being generated in between.
+
+The bases may be protected by building shields and turrets.  The shields may be programmed to allow entrance to entities transmitting one of a list of codes, and turrets may be programmed to fire on anyone except those transmitting a code in another list of codes.
+
+Automated resource gatherers may be crafted to gather specified resources within a given radius of the base and will retreat to the base if attacked.
+
+Bases and structures may be attacked by anyone, causing turrets and shields to react despite any codes that the attacking entity may be transmitting.
+
+Resources are represented by gatherable items inside the base, and they may be picked up by anyone who can get to them.

@@ -15,3 +15,5 @@ Planes: planes.txt
 Magic Theory and Crafting: magic.txt
 
 Villians, what to do with griefers: villians.txt
+
+Types of enemy NPCs: antagonists.txt

@@ -34,7 +34,7 @@ Fairies:
     Harrass players:
   Tree: starts as a sapling with a single fairie.  As the tree grows, more fae take up residence.  Tree can grow to 10 meters wide at the base and 100 meters tall.  As the tree grows, the radius in which the fae harrass players grows as well.
 
-Blood Kites:
-  Spawning location: Mountain crags
-  Objective:
+Blood Kites:   
+  Spawning location: Mountain crags   
+  Objective:     
     Steal items:
